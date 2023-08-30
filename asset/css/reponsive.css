@@ -1,0 +1,111 @@
+/* 
+    pc: >= 1024px
+    tablet: >=740 & < 1024px
+    mobile: < 740px
+
+    max-width: chieu rong toi da (<)
+    min-width: chieu rong toi thieu (<=)
+
+    cu phap: 
+    @media(max-width hoac min-width) and {}
+
+        and chỉ dùng khi có cả 2 điều kiện
+*/
+/* Table và mobile */
+@media (max-width: 1023px) {
+    .btn-send {
+        padding: 17px 30px;
+    }
+    .text-item{
+        padding: 15px 26px;
+    }
+    .place-content .place_btn-ticket {
+        padding: 15px 25px;
+    }
+}
+
+@media (min-width: 740px) {
+    .icon-menu-button {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    #header .icon-search-button {
+        display: none;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px
+    }
+    #content .member-list {
+        margin-top: 20px;
+    }
+
+    #content .members-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+  
+
+    #content .member-img{
+        width: 60%;
+    }
+
+    .place-list{
+        display: block;
+    }
+    .place-list .place-item {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    #content .contact-body {
+        display: block;
+    }
+
+    .contact-form {
+        margin-top: 25px;
+    }
+
+    .text-item{
+        width: 100%;
+        padding: 12px 26px;
+
+    }
+
+    
+    .form_name-email > .text-item:nth-child(1) {
+        margin-bottom: 10px;
+    }
+
+    .contact-item p {
+        margin-bottom: 0;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,58 @@
+html {
+    font-family: "Lato", sans-serif;
+}
+.modal {
+    margin: auto;
+    width: 900px;
+    max-height: 470px;
+}
+
+.modal-headers {
+    background-color: #009688;
+}
+
+.title-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.modal-body .title-ques {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.modal-body .btn-pay {
+    background-color: #009688;
+    padding: 12px 0;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: background 0.5s;
+}
+
+.btn-pay:hover {
+    background-color: #ddd;
+    color: #000;
+}
+.modal_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.modal_footer .btn-close {
+    background-color: #f44336!important;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    transition: background 0.5s;
+}
+.btn-close:hover {
+    background-color: #ddd!important;
+    color: #000;
+}
